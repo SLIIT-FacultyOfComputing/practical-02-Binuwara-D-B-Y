@@ -38,6 +38,9 @@ public class Stringpractice {
     System.out.printf("\nFull Name Splitted;\n\t%s\n\t%s\n\t%s", parts[0], parts[1], parts[2]);
 
     System.out.println("\nPart 05\n");
+    System.out.print("Enter a string with leading and trailing spaces: ");
+    Scanner stringWithSpaces = scan.next();
     String trimmedString = stringWithSpaces.trim();
+    System.out.println(trimmedString);
 	}
 }
